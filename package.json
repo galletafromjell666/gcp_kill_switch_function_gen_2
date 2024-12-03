@@ -1,0 +1,32 @@
+{
+  "name": "gcp_kill_switch_function_gen_2",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npx tsc-watch --onSuccess 'npx @google-cloud/functions-framework --target=killInit'",
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/galletafromjell666/gcp_kill_switch_function_gen_2.git"
+  },
+  "keywords": [
+    "gcp",
+    "billing",
+    "gen2",
+    "kill switch"
+  ],
+  "author": "Giovanni Aguirre",
+  "license": "GNU General Public License 2.0",
+  "dependencies": {
+    "@google-cloud/billing": "^4.5.0",
+    "@google-cloud/functions-framework": "^3.4.2",
+    "google-auth-library": "^9.15.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsc-watch": "^6.2.1",
+    "typescript": "^5.7.2"
+  }
+}
