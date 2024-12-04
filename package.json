@@ -21,8 +21,7 @@
   "license": "GNU General Public License 2.0",
   "dependencies": {
     "@google-cloud/billing": "^4.5.0",
-    "@google-cloud/functions-framework": "^3.4.2",
-    "google-auth-library": "^9.15.0"
+    "@google-cloud/functions-framework": "^3.4.2"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",
